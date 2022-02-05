@@ -1,5 +1,4 @@
-# 2021_TOKYO_OLYMPICS_DATA_files
-ipynb, html, xlsx, csv files for Chiyoung Lee's 2021 TOKYO OLYMPICS DATA ANALYSIS AND VISUALIZATION project.
-This repository has code that was used in this project.
-It also has the xlsx, csv files of the datasets which were used in the project.
-Please download all to review properly.
+# 2021_tokyo_olympics
+In this project merged, cleaned and wrangled datasets from the Olympic committee and the World Bank.
+I also visualized the correlation of national GDP and medal count using the Seaborn, Matplotlib and Scipy library in Python.
+Please download all files to review properly.
