@@ -1,4 +1,33 @@
 # 2021_tokyo_olympics
-In this project merged, cleaned and wrangled datasets from the Olympic committee and the World Bank.
-I also visualized the correlation of national GDP and medal count using the Seaborn, Matplotlib and Scipy library in Python.
-Please download all files to review properly.
+
+**This exploration attempts to answer the following questions.**
+
+* **Which countries won the most medals?**
+* **Which countries had the most Athlete Count?**
+* **Is there a correlation between Athlete Count and the number of Medals a country wins?**
+* **Amongst the top 30 medal winning countries, is there a correlation between Per Capita GDP and the number of Medals a country wins?**
+
+For this exploration I used the 2021 Tokyo Olympics Dataset found in Kaggle.
+
+https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo
+
+I use the Medals.xlsx and 'Athletes.xlsx' files in the dataset to explore the correlation of the number of athletes a country sends and the number of medals a country wins.
+
+For the top 30 total medal winning countries, I also explore the correlation between Per Capita GDP and total medals won. I use the World Bank's GDP PER CAPITA Data for 2020.
+I also supplement some missing data from the CIA World Factbook page.
+
+https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+
+https://www.cia.gov/the-world-factbook/field/real-gdp-per-capita/country-comparison
+
+
+
+## CONCLUSION
+
+* **United States of America, People's Republic of China and ROC(Russia) won the most Medals in Tokyo 2021.**
+* **United States of America, Japan and Australia sent the most Athletes to Tokyo 2021.**
+* **There is a strong correlation between Athlete Count and the Total Medals a Country wins. Pearson R = 0.87**
+* **There is a low correlation between GDP Per Capita and the Total Medals a Country wins.
+Pearson R = 0.21. 
+This makes sense as People's Republic of China and ROC(Russia) are amongst top 3 medal winners but have relatively low GDP per capita.**
+
