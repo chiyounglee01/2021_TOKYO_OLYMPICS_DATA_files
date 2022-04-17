@@ -1,5 +1,7 @@
 # 2021_tokyo_olympics
 
+##Introduction
+
 **This exploration attempts to answer the following questions.**
 
 * **Which countries won the most medals?**
