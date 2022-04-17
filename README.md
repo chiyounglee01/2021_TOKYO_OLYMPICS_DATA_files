@@ -1,6 +1,6 @@
 # 2021_tokyo_olympics
 
-##Introduction
+## Introduction
 
 **This exploration attempts to answer the following questions.**
 
